@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibrary", "GeometryLibrary\GeometryLibrary.csproj", "{0D558A4F-F09D-461E-8207-160B9FFE1C4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryLibraryTests", "GeometryLibraryTests\GeometryLibraryTests.csproj", "{72CCBFD2-E7EC-4200-B888-1E98A007C952}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0D558A4F-F09D-461E-8207-160B9FFE1C4E} = {0D558A4F-F09D-461E-8207-160B9FFE1C4E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
