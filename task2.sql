@@ -1,5 +1,5 @@
-select 
-	prod.name as [Продукт], 
-	cat.name as [Категория]
+п»їselect 
+	prod.name as [РџСЂРѕРґСѓРєС‚], 
+	cat.name as [РљР°С‚РµРіРѕСЂРёСЏ]
 from products prod
 	left join categories cat on cat.id = prod.idcategory
